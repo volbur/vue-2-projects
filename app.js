@@ -9,8 +9,14 @@ new Vue({
   beforeCreate() {
     console.log('beforeCreate()');
   },
-  create() {
-    console.log('create()');
+  created() {
+    console.log('created()');
+  },
+  beforeMount() {
+    console.log('beforeMount()');
+  },
+  mounted() {
+    console.log('mounted()');
   },
   beforeUpdate() {
     console.log('beforeUpdate()');
