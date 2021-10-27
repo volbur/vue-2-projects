@@ -3,7 +3,11 @@ new Vue({
   data: {
     title: 'The VueJS Instance',
   },
-  methods: {},
+  methods: {
+    destroy() {
+      this.$destroy();
+    },
+  },
   computed: {},
   watch: {},
   beforeCreate() {
